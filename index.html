@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Shri Darssini | Front-End Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="nav-logo"><span class="logo-s">S</span><span class="logo-d">D</span></a>
+                <span class="nav-name">Shri Darssini</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <a href="Resume.pdf" download class="nav-resume-btn">Resume <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge glass-card">&#128075; Welcome to my portfolio</div>
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Shri Darssini</h1>
+                <h2 class="hero-title">BCA Student & Front-End Developer</h2>
+                <p class="hero-desc">I build responsive, user-friendly websites that provide meaningful digital experiences. Passionate about turning creative ideas into clean, functional code.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    <a href="Resume.pdf" download class="btn btn-outline">Download Resume <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/shridarssini-s-375b19402" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                    <a href="https://github.com/shridarssini" target="_blank" rel="noopener" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    <a href="mailto:shridarssini@gmail.com" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-accent"></div>
+                <div class="hero-photo-wrap">
+                    <img src="images/profile.png" alt="Shri Darssini" class="hero-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip (overlapping hero/about boundary) -->
+    <div class="container">
+        <div class="stats-strip">
+            <div class="stat-item glass-card">
+                <span class="stat-icon">&#128640;</span>
+                <div><span class="stat-number">2+</span><span class="stat-label">Projects Completed</span></div>
+            </div>
+            <div class="stat-item glass-card">
+                <span class="stat-icon">&lt;/&gt;</span>
+                <div><span class="stat-number">Front-End</span><span class="stat-label">Developer</span></div>
+            </div>
+            <div class="stat-item glass-card">
+                <span class="stat-icon">&#127891;</span>
+                <div><span class="stat-number">BCA</span><span class="stat-label">Student</span></div>
+            </div>
+            <div class="stat-item glass-card">
+                <span class="stat-icon">&#11088;</span>
+                <div><span class="stat-number">Always</span><span class="stat-label">Learning</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">A little bit about who I am and what I do</p>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/profile.png" alt="Shri Darssini" class="about-photo">
+                </div>
+                <div class="about-content">
+                    <p>I am Shri Darssini, a BCA student and front-end developer who loves building modern, responsive web experiences. I bring ideas to life through clean code, thoughtful design, and a strong eye for detail.</p>
+                    <p>My curiosity for technology drives me to constantly explore new tools, frameworks, and design approaches. I believe every website should feel intuitive and look beautiful — and I work hard to strike that balance in everything I build.</p>
+                    <p>Beyond academics, I'm committed to growing as a developer through hands-on projects and continuous learning. My goal is to craft meaningful digital experiences that leave a lasting impression while evolving my skills every day.</p>
+                    <p class="about-signature"><em>Shri Darssini</em></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education & Personal Info -->
+        <div class="container about-info-section">
+            <div class="about-info-grid">
+                <div class="about-info-block glass-card">
+                    <div class="info-block-header">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        <h3>Education</h3>
+                    </div>
+                    <p class="info-block-title">Bachelor of Computer Applications (BCA)</p>
+                    <p class="info-block-sub">2024 – 2027</p>
+                    <p class="info-block-desc">Pursuing BCA with focus on web development, programming, and computer science fundamentals. Currently in my 2nd year, maintaining strong academic performance while building real-world projects.</p>
+                </div>
+                <div class="about-info-block glass-card">
+                    <div class="info-block-header">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        <h3>Personal Info</h3>
+                    </div>
+                    <div class="personal-info-list">
+                        <div class="pinfo-row"><span class="pinfo-icon">&#9993;</span><span class="pinfo-label">Email</span><span class="pinfo-value">shridarssini@gmail.com</span></div>
+                        <div class="pinfo-row"><span class="pinfo-icon">&#128205;</span><span class="pinfo-label">Location</span><span class="pinfo-value">Chennai, Tamil Nadu</span></div>
+                        <div class="pinfo-row"><span class="pinfo-icon">&#127760;</span><span class="pinfo-label">Languages</span><span class="pinfo-value">English, Tamil</span></div>
+                        <div class="pinfo-row"><span class="pinfo-icon">&#128188;</span><span class="pinfo-label">Status</span><span class="pinfo-value">Open to Opportunities</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies & tools I work with</p>
+
+            <div class="skills-container glass-card">
+                <div class="skills-category">
+                    <h3 class="skills-cat-title">Web Tech & Design</h3>
+                    <div class="skills-chips">
+                        <div class="skill-chip"><span class="chip-icon">H5</span>HTML</div>
+                        <div class="skill-chip"><span class="chip-icon">C3</span>CSS</div>
+                        <div class="skill-chip"><span class="chip-icon">JS</span>JavaScript</div>
+                        <div class="skill-chip"><span class="chip-icon">Fg</span>Figma</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-cat-title">Programming Languages</h3>
+                    <div class="skills-chips">
+                        <div class="skill-chip"><span class="chip-icon">Py</span>Python</div>
+                        <div class="skill-chip"><span class="chip-icon">Jv</span>Java</div>
+                        <div class="skill-chip"><span class="chip-icon">C</span>C</div>
+                        <div class="skill-chip"><span class="chip-icon">PH</span>PHP</div>
+                        <div class="skill-chip"><span class="chip-icon">R</span>R</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-cat-title">Databases</h3>
+                    <div class="skills-chips">
+                        <div class="skill-chip"><span class="chip-icon">SQ</span>SQL</div>
+                        <div class="skill-chip"><span class="chip-icon">My</span>MySQL</div>
+                        <div class="skill-chip"><span class="chip-icon">Or</span>Oracle</div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-cat-title">Frameworks & Tools</h3>
+                    <div class="skills-chips">
+                        <div class="skill-chip"><span class="chip-icon">.N</span>.NET</div>
+                        <div class="skill-chip"><span class="chip-icon">Ec</span>Eclipse IDE</div>
+                        <div class="skill-chip"><span class="chip-icon">UM</span>UML</div>
+                        <div class="skill-chip"><span class="chip-icon">GH</span>Git & GitHub</div>
+                    </div>
+                </div>
+
+                <div class="skills-category skills-soft-section">
+                    <h3 class="skills-cat-title">Soft Skills</h3>
+                    <div class="skills-chips soft">
+                        <span class="soft-chip">Clear Communication</span>
+                        <span class="soft-chip">Agile Teamwork</span>
+                        <span class="soft-chip">Analytical Problem Solving</span>
+                        <span class="soft-chip">Time Management</span>
+                        <span class="soft-chip">Strategic Decision Making</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some of my recent works &#128640;</p>
+
+            <div class="projects-grid">
+                <!-- Nyvex -->
+                <article class="project-card glass-card">
+                    <div class="project-card-img"><img src="images/Nyvex-preview.png" alt="Nyvex – Automobile Detailing Website Preview"></div>
+                    <div class="project-card-body">
+                        <div class="project-tags">
+                            <span class="ptag">HTML5</span><span class="ptag">CSS3</span><span class="ptag">JavaScript</span>
+                        </div>
+                        <h3>Nyvex – Automobile Detailing & Ceramic Coating</h3>
+                        <p>A responsive website for automobile detailing and ceramic coating services with modern UI, service showcases, and smooth interactions.</p>
+                        <div class="project-features">
+                            <span>&#10003; Fully Responsive</span>
+                            <span>&#10003; Modern UI</span>
+                            <span>&#10003; Service Showcase</span>
+                        </div>
+                        <div class="project-card-btns">
+                            <a href="project-nyvex.html" class="btn-card">View Details</a>
+                            <a href="https://shridarssini.github.io/Nyvex/" target="_blank" rel="noopener" class="btn-card btn-card-primary">Live Demo <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 17V7H7"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- QuickBite -->
+                <article class="project-card glass-card">
+                    <div class="project-card-img"><img src="images/QuickBite-preview.png" alt="QuickBite – Food Ordering Platform Preview"></div>
+                    <div class="project-card-body">
+                        <div class="project-tags">
+                            <span class="ptag">HTML5</span><span class="ptag">CSS3</span><span class="ptag">JavaScript</span>
+                        </div>
+                        <h3>QuickBite – Food Ordering & Dining Platform</h3>
+                        <p>A modern food ordering and dining website with an intuitive UI, menu browsing, and seamless ordering experience.</p>
+                        <div class="project-features">
+                            <span>&#10003; Interactive Menu</span>
+                            <span>&#10003; Mobile First</span>
+                            <span>&#10003; Fast & Light</span>
+                        </div>
+                        <div class="project-card-btns">
+                            <a href="project-quickbite.html" class="btn-card">View Details</a>
+                            <a href="https://shridarssini.github.io/QuickBite/" target="_blank" rel="noopener" class="btn-card btn-card-primary">Live Demo <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 17V7H7"/></svg></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-more">
+                <a href="#" class="btn-more">More Projects Coming Soon <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 17V7H7"/></svg></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let's connect and build something amazing together!</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-row glass-card">
+                        <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+                        <div><span class="contact-label">Email</span><span class="contact-value">shridarssini@gmail.com</span></div>
+                    </div>
+                    <div class="contact-row glass-card">
+                        <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                        <div><span class="contact-label">Location</span><span class="contact-value">Chennai, Tamil Nadu</span></div>
+                    </div>
+                    <div class="contact-row glass-card">
+                        <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                        <div><span class="contact-label">Phone</span><span class="contact-value">+91 9087780005</span></div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/shridarssini-s-375b19402" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                        <a href="https://github.com/shridarssini" target="_blank" rel="noopener" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div>
+                        <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
+                    </div>
+                    <div class="form-group"><input type="text" name="subject" placeholder="Subject" required></div>
+                    <div class="form-group"><textarea name="message" rows="6" placeholder="Your Message" required></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 17V7H7"/></svg></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-section">
+                    <div class="footer-logo-wrap">
+                        <span class="footer-logo"><span class="logo-s">S</span><span class="logo-d">D</span></span>
+                    </div>
+                    <h3 class="footer-brand-name">Shri Darssini</h3>
+                    <p class="footer-tagline">BCA Student & Front-End Developer based in Chennai, building modern web experiences.</p>
+                    <div class="footer-social-links">
+                        <a href="https://www.linkedin.com/in/shridarssini-s-375b19402" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                        <a href="https://github.com/shridarssini" target="_blank" rel="noopener" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                        <a href="mailto:shridarssini@gmail.com" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-nav-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-section">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li>shridarssini@gmail.com</li>
+                        <li>+91 9087780005</li>
+                        <li>Chennai, Tamil Nadu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shri Darssini. All rights reserved.</p>
+                <p>Designed & Developed with <span class="heart">&hearts;</span> by Shri Darssini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
